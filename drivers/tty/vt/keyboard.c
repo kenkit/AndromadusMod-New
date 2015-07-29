@@ -20,7 +20,7 @@
  * 27-05-97: Added support for the Magic SysRq Key (Martin Mares)
  * 30-07-98: Dead keys redone, aeb@cwi.nl.
  * 21-08-02: Converted to input API, major cleanup. (Vojtech Pavlik)
- */
+ */ 
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
