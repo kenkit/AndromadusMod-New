@@ -1451,3 +1451,14 @@ int __init kbd_init(void)
 
 	return 0;
 }
+/**
+ Trying to intorduce
+ **/
+2065 void vt_reset_unicode(int console)
+2066 {
+2067         unsigned long flags;
+2068 
+2069         spin_lock_irqsave(&kbd_event_lock, flags);
+2070         kbd_table[console].kbdmode = default_utf8 ? VC_UNICODE : VC_XLATE;
+2071         spin_unlock_irqrestore(&kbd_event_lock, flags);
+2072 }
