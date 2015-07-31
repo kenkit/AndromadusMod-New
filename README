@@ -17,7 +17,7 @@ make kylon_saga_defconfig (This is the defaul exp kernel config)
 make menuconfig or xconfig(you need qt4) (This will show you a menu where you can customize the kernel features)
 
 make -jx*+1
-
+ 
 *x= cores
 
 ex.  
