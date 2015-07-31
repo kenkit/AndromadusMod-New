@@ -20,6 +20,6 @@ make -jx*+1
 
 *x= cores
 
-ex. 
+ex.  
 i have i7 4-core so make -j9 or make -j10   
 
